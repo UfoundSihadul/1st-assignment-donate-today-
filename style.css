@@ -69,11 +69,15 @@ body{
     text-align: center;
 }
 
+.third-section {
+    margin-top: 150px;
+}
+
 .donation-plan {
     display:flex;
     justify-content: center;
     justify-content: space-around;
-    margin: 100px 100px 200px 100px;
+    margin: 40px 100px 200px 100px;
 }
 .seperate {
     margin: 20px;
@@ -105,7 +109,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around; 
-    margin: 100px 60px 100px 60px;
+    margin: 50px 60px 100px 60px;
   
 }
 .our-gallery img {
