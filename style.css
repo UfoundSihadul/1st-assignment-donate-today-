@@ -25,3 +25,125 @@ body{
     color:white;
     font-weight: 600;
 }
+
+.second-section {
+    text-align: center;
+}
+
+.donate-part {
+    
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.donate-part h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+.donate-amount {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 40px 50px 50px 100px;
+}
+.donate-amount h3 {
+    padding: 30px 30px;
+    
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px;
+}
+#taka {
+    background-image: linear-gradient( rgb(14, 106, 143), rgb(236, 125, 232) );
+    border: 3px solid blueviolet;
+    color: black;
+}
+
+.other-ammount {
+    width: 550px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;   
+}
+::placeholder {
+    text-align: center;
+}
+
+.donation-plan {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 100px 100px 200px 100px;
+}
+.seperate {
+    margin: 20px;
+    margin-right: -10px;
+    text-align: justify;
+}
+
+.food {
+    background-color: aquamarine;
+    padding: 20px;
+}
+.shelter {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.education {
+    background-color: lightyellow;
+    padding: 20px;
+    padding-right:20px;
+}
+
+.photo-section {
+    margin-top: -120px;
+}
+
+.our-gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around; 
+    margin: 100px 60px 100px 60px;
+  
+}
+.our-gallery img {
+    margin: 5px;
+    
+    border: 1px solid blueviolet;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    width: 12%;
+    min-width: 450px;
+
+}
+
+.subscribe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 40px 40px 40px 40px;
+    margin-right: 35%;
+    margin-left: 35%;
+    background-color: lightblue;
+}
+.subscribe-button {
+    text-decoration: none;
+    background-image: linear-gradient( rgb(14, 106, 143), rgb(236, 125, 232) );
+    padding: 4px 8px 3px 8px;
+    
+    color:white;
+    font-size: 11px;
+    margin-left: -8px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    margin-top:100px;
+    padding:80px;
+    color:white;
+}
