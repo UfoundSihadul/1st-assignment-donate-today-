@@ -1,8 +1,27 @@
 body{
         font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    color: aquamarine;
+.First-section {
+    background-image: url(./images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -22px;
+
+    text-align: center;
+    color: whitesmoke;
+    padding: 280px 400px 280px 400px; 
+}
+
+.donate-now {
+    text-decoration: none;
+    background-image: linear-gradient( rgb(14, 106, 143), rgb(236, 125, 232) );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 600;
 }
